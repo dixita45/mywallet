@@ -24,7 +24,7 @@ jobs:
         context: .
         file: ./docker/Dockerfile.user
         push: true
-        tags: dixta45/wallet:latest  # Replace with your Docker Hub username and repository
+        tags: dixta45/mywallet:latest  # Replace with your Docker Hub username and repository
 
     - name: Verify Pushed Image
-      run: docker pull dixita45/wallet:latest  # Replace with your Docker Hub username and repository
+      run: docker pull dixita45/mywallet:latest  # Replace with your Docker Hub username and repository
