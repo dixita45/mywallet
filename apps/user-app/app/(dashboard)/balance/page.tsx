@@ -26,9 +26,9 @@ export default async function () {
       </div>
 
       <div className="grid grid-cols-1 gap-4 md:grid-cols-2 p-4">
-        
+        <div>
           <BalanceCard amount={balance.amount} locked={balance.locked} />
-       
+        </div>
       </div>
     </div>
   );
